@@ -5,7 +5,7 @@ var input = [
 ];
 var result = input.map(function(item) {
   return Math.sqrt(Math.pow(item.x, 2) + Math.pow(item.y, 2));
-    })
+});
 
 console.log(result[0] === 5);
 console.log(result[1] === 13);
