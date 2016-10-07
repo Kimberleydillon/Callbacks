@@ -4,7 +4,6 @@ var students = [
   { id: 3, name: "alex",     age: 22 },
   { id: 4, name: "alex",     age: 30 }
 ];
-// writing a sorting function (called a custom comparator)
 function studentSorter(array){
   array.sort(function(a, b){
     return b.age - a.age;
